@@ -7,9 +7,9 @@ class Post extends CI_Controller {
 		parent::__construct(); 
     
         //Esiste uma sessao
-        if(!$this->ion_auth->logged_in()){
-            redirect('restrito/login'); 
-        }
+        //if(!$this->ion_auth->logged_in()){
+          //  redirect('restrito/login'); 
+        //}
     }
     
 
